@@ -1,0 +1,461 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:500,700&display=swap);
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	font-family: 'Muli', 'Arial', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 2em;
+	text-align: left;
+	color: #222;
+}
+
+header {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+nav label {
+	padding: 1em;
+	color: #222;
+	letter-spacing: .25em; 
+	font-family: 'Muli', 'Arial', sans-serif;
+	font-weight: 700;
+	display: none;
+	text-transform: uppercase;
+}
+
+section {
+	width: 50em;
+	margin:	auto;
+	padding: 4em;
+}
+
+footer {
+	margin: auto;
+	background: #87ceeb;
+	padding: .5em;
+}
+
+a {
+	text-decoration: none;
+	color: #222;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h1 {
+	padding-top: 1.5em;
+	padding-bottom: .5em;
+	font-weight: 700;
+	font-size: 5em;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 1em;
+}
+
+h2 {
+	padding: 1em 0;
+	font-weight: 700;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+h3 {
+	padding: 1em;
+	margin: auto;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	width: 30em;
+}
+
+h4 {
+	font-weight: bold;
+	color: #87ceeb;
+}
+
+ul {
+	text-decoration: none;
+	padding-bottom: 1.5em;
+}
+
+li {
+	padding-bottom: .5em;
+}
+
+th {
+	font-style: italic;
+}
+
+tr,td {
+	padding-right: 3em;
+	font-size: 1em;
+}
+
+form {
+	text-align: center;
+}
+
+input {
+	font-family: 'Muli', 'Arial', sans-serif;
+	color: #222;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1em;
+	-webkit-appearance: none;
+}
+
+input[type="submit"] {
+	border: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.btn {
+	display: inline-block;
+	margin: 1em 0;
+	padding: .5em 1.5em;
+	width: 10em;
+	text-align: center;
+	background: #ff9d5c;
+	box-shadow: 1.5px 1.5px 2px #222;
+	color: #fff;
+}
+
+.btn:hover {
+	background-color: #ff7d5c;
+	box-shadow: 3px 3px 4px #222;
+}
+
+.donate {
+	display: inline-block;
+	margin: 1em 0;
+	padding: .5em 1.5em;
+	width: 10em;
+	text-align: center;
+	background: #3eb449;
+	box-shadow: 1.5px 1.5px 2px #222;
+	color: #fff;
+}
+
+.donate:hover {
+	background-color: #3eb489;
+	box-shadow: 1.5px 1.5px 4px #222;
+}
+
+.gallery {
+	width: 100%;
+}
+
+.gallery img {
+	width: 22em;
+}
+
+.top3 {
+	float: left;
+	width: 33%;
+	padding: .5em;
+}
+
+.join {
+	background: #ffed83;
+	width: 100%;
+	color: #222;
+}
+
+.social {
+	text-decoration: none;
+	border-bottom: none;
+	float: right;
+}
+
+.social img {
+	width: 1.5em;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#header-items {
+	background: radial-gradient(rgba(245,235,220,.33),rgba(245,235,220,.33)), url(images/wangama-walking.jpg);
+	background-size: cover;
+	text-align: center;
+	padding: 1em;
+}
+
+#nav-items {
+	padding: 1em 0;
+	color: #222;
+	letter-spacing: .25em; 
+	font-weight: 700;
+	display: inline-block;
+}
+
+#nav-items a {
+	margin: 0 .75em;
+}
+
+#toggle {
+	display: none;
+}
+
+#logo img {
+	width:4em;
+	float: left;
+	margin: 0 auto;
+	padding-top: 0;
+}
+
+#full-logo {
+	width: 30em;
+	padding-top: 1em;
+	margin: auto;
+}
+
+#donate-nav {
+	float: right;
+	margin: .5em 1em;
+	vertical-align: middle;
+}
+
+#waystohelp {
+	background: rgba(245,235,220,.5);
+	width: 90%;
+}
+
+#donate {
+	color: #3eb489;
+}
+
+#involved {
+	color: #ffcd73;
+}
+
+#mission {
+	color: #87ceeb;
+}
+
+#about-header {
+	background: radial-gradient(rgba(245,235,220,.33),rgba(245,235,220,.5)), url(images/wangama-board.jpg);
+	background-size: cover;
+	text-align: center;
+	padding: 1em;
+}
+
+#about {
+	float: left;
+	width: 60%;
+}
+
+#board {
+	float: right;
+	width: 40%;
+}
+
+#about img {
+	width: 100%;
+	padding-top: 1em;
+}
+
+#contact {
+	float: left;
+	width: 60%;
+	padding: 4em 2em;
+}
+
+#contact-form {
+	float: right;
+	width: 40%;
+	padding: 4em 2em;
+}
+
+#contact-wangama {
+	text-align: left;
+}
+
+#info {
+	width: 15em;
+}
+
+#message {
+	width: 20em;
+	height: 13em;
+}
+
+
+
+@media only screen and (max-width: 1172px) {
+	body {
+		font-size:18px;
+	}
+	#nav-items {
+		letter-spacing: .15em;
+	}
+	#nav-items a {
+		margin: .5em;
+		padding: .75em;
+	}
+	#logo img {
+		width: 3.5em;
+	}
+	#donate-nav {
+		width: 7em;
+		margin: .5em .5em;
+		padding: .5em .5em;
+	}
+
+}
+
+@media only screen and (max-width: 978px) {
+	body {
+		font-size:16px;
+	}
+	section {
+		width: 100%;
+	}
+	.top3 {
+		float: none;
+		width: 90%;
+	}
+	.gallery {
+		overflow: none;
+	}
+	.gallery img {
+		width: 45%;
+		float: none;
+	}
+	#nav-items {
+		letter-spacing: .12em; 
+	}
+	#nav-items a {
+		margin: .25em;
+	}
+	#donate-nav {
+		margin: .5em .5em;
+		padding: .5em .5em;
+		width: 5.5em;
+	}
+}
+
+@media only screen and (max-width: 835px) {
+	#contact {
+		float: none;
+		width: 100%;
+		padding: 4em;
+	}
+	#contact-form {
+		float: none;
+		width: 100%;
+		padding: 4em;
+	}
+}
+
+@media only screen and (max-width: 796px) {
+	header {
+		background: rgba(245,235,220,.33);
+	}
+	h3 {
+		width: 20em;
+	}
+	td {
+		font-size: .75em;
+	}
+	footer {
+		padding: .5em .5em 5em;
+	}
+	#header-items {
+		padding: 0;
+	}
+	#nav-items {
+		letter-spacing: 0
+	}
+	#donate-header {
+		display: none;
+	}
+	#logo img {
+		display: block;
+		float: left;
+	}
+	#donate-nav {
+		width: 100%;
+		bottom: 0;
+		position: fixed;
+		float: none;
+		margin: 0 auto;
+		display: block;
+		font-size: 1.5em;
+		padding: 1em;
+	}
+	#logo img {
+		width: 3em;
+		margin-top: auto;
+	}
+	#about {
+		float: none;
+		width: 100%;
+	}
+	#board {
+		float: none;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 580px) {
+	header {
+		background: none;
+	}
+	nav label {
+		display: block;
+		letter-spacing: .12em;
+		background: rgba(245,235,220,.5);
+		margin: 1em;
+	}
+	h1 {
+		margin-top: .5em;
+	}
+	h3 {
+		width: 100%;
+	}
+	.gallery img {
+		width: 100%;
+	}
+	#nav-items {
+		display: none;
+		padding: 0;
+		letter-spacing: .12em;
+	}
+	#nav-items a:link {
+		display: block;
+	}
+	#nav-items a {
+		background: rgba(245,235,220,.5);
+		margin: 1em;
+	}
+	#logo img {
+		float: none;
+	}
+	#full-logo {
+		width: 20em;
+		padding-top: 1em;
+	}
+	#toggle:checked + #nav-items {
+		display: block;
+	}
+}
