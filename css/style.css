@@ -214,7 +214,7 @@ input[type="submit"] {
 }
 
 #header-items {
-	background: radial-gradient(rgba(245,235,220,.33),rgba(245,235,220,.33)), url(images/wangama-walking.jpg);
+	background: radial-gradient(rgba(245,235,220,.5),rgba(245,235,220,.33)), url(images/wangama-village.jpg);
 	background-size: cover;
 	text-align: center;
 	padding: 1em;
@@ -274,7 +274,7 @@ input[type="submit"] {
 }
 
 #about-header {
-	background: radial-gradient(rgba(245,235,220,.33),rgba(245,235,220,.5)), url(images/wangama-board.jpg);
+	background: radial-gradient(rgba(245,235,220,.33),rgba(245,235,220,.5)), url(images/wangama-walking.jpg);
 	background-size: cover;
 	text-align: center;
 	padding: 1em;
